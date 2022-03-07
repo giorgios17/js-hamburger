@@ -5,13 +5,11 @@ const closeHamburgerMenu = document.querySelector('.close')
 //VERSIONE 1
 
 hamburgerMenu.addEventListener('click', function () {
-    console.log('click ok');
     const hamburgerMenuDisplay = document.querySelector('.hamburger-menu').style.display = "block";
 
 })
 
 closeHamburgerMenu.addEventListener('click', function () {
-    console.log('click ok');
     const hamburgerMenuDisplay = document.querySelector('.hamburger-menu').style.display = "none";
 
 })
@@ -22,14 +20,12 @@ closeHamburgerMenu.addEventListener('click', function () {
 
 /*
 hamburgerMenu.addEventListener('click', function () {
-    console.log('click ok');
     const hamburgerMenuDisplay = document.querySelector('.hamburger-menu');
     hamburgerMenuDisplay.classList.add('active')
 
 })
 
 closeHamburgerMenu.addEventListener('click', function () {
-    console.log('click ok');
     const hamburgerMenuDisplay = document.querySelector('.hamburger-menu');
     hamburgerMenuDisplay.classList.remove('active')
 
