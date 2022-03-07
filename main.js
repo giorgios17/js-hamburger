@@ -5,12 +5,12 @@ const closeHamburgerMenu = document.querySelector('.close')
 //VERSIONE 1
 
 hamburgerMenu.addEventListener('click', function () {
-    const hamburgerMenuDisplay = document.querySelector('.hamburger-menu').style.display = "block";
+    document.querySelector('.hamburger-menu').style.display = "block";
 
 })
 
 closeHamburgerMenu.addEventListener('click', function () {
-    const hamburgerMenuDisplay = document.querySelector('.hamburger-menu').style.display = "none";
+    document.querySelector('.hamburger-menu').style.display = "none";
 
 })
 
